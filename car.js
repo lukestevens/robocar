@@ -44,7 +44,6 @@ function drive(pinName, howLong){
   }
 }
 
-// self cleaning. open, set, close
 function setPin(pinName, pinValue){
   gpio.write(AllPins[pinName], pinValue);
   return true;
